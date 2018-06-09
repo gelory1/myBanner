@@ -6,19 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>一个无缝轮播图</title>
     <link rel="stylesheet" href="./style2.css">
-
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
 <body>
-    <div class="window">
-        <div class="imgs">
+    <div id="window" class="window">
+        <div id="imgs" class="imgs">
             <img src="./img/1.jpg" alt="图片" width="200" height="300">
             <img src="./img/2.jpg" alt="图片" width="200" height="300">
             <img src="./img/3.jpg" alt="图片" width="200" height="300">
             <img src="./img/4.jpg" alt="图片" width="200" height="300">
         </div>
     </div>
+    <div id="buttonWrap" class="buttonWrap">
+        <button class="active">button1</button>
+        <button>button2</button>
+        <button>button3</button>
+        <button>button4</button>
+    </div>
+    
 
-<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="./script2.js"></script>
 </body>
 </html>

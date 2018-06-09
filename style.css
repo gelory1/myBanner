@@ -1,6 +1,11 @@
+body{
+    background-color: #eee;
+}
 .window{
     width: 200px;
     overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 .imags{
     display: flex;
@@ -9,26 +14,21 @@
 }
 #buttons{
     display: flex;
-    align-items: flex-start;
-}
-#buttons span{
-    padding-right: 5px;
-    display: block;
-    width: 52px;
-    height: 52px;
-    line-height: 52px;
     justify-content: center;
 }
-.red{
-    color: red;
-    font-size: 20px;
-    animation: fontsize 0.3s;
+#buttons span{
+    justify-content: center;
+    padding: 5px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-size: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
 }
-@keyframes fontsize{
-    0%{
-        font-size: 14px;
-    }
-    100%{
-        font-size: 20px;
-    }
+#buttons span.red{
+    border: 1px solid blue;
+    color: blue;  
 }
