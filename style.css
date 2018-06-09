@@ -30,5 +30,6 @@ body{
 }
 #buttons span.red{
     border: 1px solid blue;
-    color: blue;  
+    color: blue; 
+    box-shadow: 0 0 5px 0 blue;
 }
